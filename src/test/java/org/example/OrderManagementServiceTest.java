@@ -43,16 +43,16 @@ public class OrderManagementServiceTest {
     @Test
     public void test() {
         //стаб
-        //Car car=new Car(engine);
-        //System.out.println(car.getEnginePower());
-        //Mockito.when(engine.getPower()).thenReturn(500);
-        //System.out.println(engine.getPower());
+        Car car=new Car(engine);
+        System.out.println(car.getEnginePower());
+        Mockito.when(engine.getPower()).thenReturn(500);
+        System.out.println(engine.getPower());
 
         Mockito.when(engine.countWheels(Mockito.anyInt(),Mockito.anyInt())).thenReturn(99);
         System.out.println(engine.countWheels(123,12321));
 
-        //Mockito.when(engine.countWheels(1, 5)).thenReturn(10);
-        //System.out.println(engine.countWheels(1, 4));
+        Mockito.when(engine.countWheels(1, 5)).thenReturn(10);
+        System.out.println(engine.countWheels(1, 4));
 
         Mockito.when(engine.calcSalary(0, 0, 0)).thenReturn(500);
         Assert.assertEquals(500, engine.calcSalary(0, 0, 0));
