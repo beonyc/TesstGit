@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Mochito_Practic,org.example,Engine,17,0,0,0,5,0,5,0,5,0
+Mochito_Practic,org.example,CourierManagementService,4,0,0,0,2,0,2,0,2,0
+Mochito_Practic,org.example,Main,7,0,0,0,3,0,2,0,2,0
+Mochito_Practic,org.example,OrderManagementService,4,0,0,0,3,0,2,0,2,0
+Mochito_Practic,org.example,Delivery,13,0,0,0,6,0,5,0,5,0
+Mochito_Practic,org.example,Car,0,10,0,0,0,4,0,2,0,2
+Mochito_Practic,org.example,NameConverter,12,34,7,9,2,8,6,6,0,4
